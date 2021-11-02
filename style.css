@@ -6,3 +6,18 @@ img{
     max-width: 100%;
     height: auto;
 }
+
+.column_image{
+    overflow: hidden;
+    float: left;
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#banner{
+    width: 100%;
+    height: auto;
+    background-size: contain;
+}
