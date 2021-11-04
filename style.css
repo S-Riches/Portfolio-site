@@ -21,3 +21,25 @@ img{
     height: auto;
     background-size: contain;
 }
+
+.layout{
+    display: grid;
+    grid-gap: 1.3rem;
+    grid-template-areas:
+    'first second'
+    'third second'
+}
+.item{
+    border: 2px solid black;
+}
+#first{
+    grid-area: first;
+}
+
+#second{
+    grid-area: second;
+}
+#third{
+    grid-area: third;
+}
+
